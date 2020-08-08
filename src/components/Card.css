@@ -1,0 +1,26 @@
+.card-container{
+  
+  /* height: 105px;
+  min-width: 70px;
+  width:9%; */
+  background: grey;
+  border:6px solid  grey;
+  border-radius:25px;
+  display: inline-block;
+}
+
+.card32{
+  margin: 15px;
+  height: 105px;
+  min-width: 70px;
+  width:9%;
+}
+
+.card16{
+  margin: 15px;
+  margin-left: 45px;
+  justify-content: center;
+  height: 110px;
+  min-width: 10%;
+  width:17.5%;
+}

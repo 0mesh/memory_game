@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Memory Game
+A grid-based game made with Reactjs 
 
-## Available Scripts
+Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. On the game board there are always 2 cards with same color. Start the game by flipping a card. Then try to find another card that has the same color as the first. If you can't find a pair, the flipped cards will be flipped back with the face down. Try to remember these images as it becomes easier to find pairs the longer you play. When you find a pair they are removed from the board and when you find all the pairs in this memory, you have completed the level.
 
-In the project directory, you can run:
 
-### `npm start`
+## Rules of Memory Game
+- Start the game by flipping a card.
+- Then try to find another card that has the same color as the first.
+- If you can't find a pair, the flipped cards will be flipped back with the face down. 
+- Try to remember the color on the card as it becomes easier to find pairs the longer you play.
+- When you find a pair they are kept visible from the board.
+- When you find all the pairs in this memory you have completed the level.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Levels of Memory Game
+- Easy - 16 cards (8 pairs) with visible time  = 1000ms
+- Medium - 16 cards (8 pairs) with visible time  = 400ms
+- Hard - 32 cards (16 pairs) with visible time = 1000ms
+- Expert - 32 cards (16 pairs) with visible time  = 400ms
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Scoring 
+- Number of clicks refers to the amount of clicks required to complete the game.
+- Previous Best (hidden until one has completed the current level) stores the least number of clicks required to  complete the given level.
 
-### `npm test`
+# Try it [here](https://0mesh.github.io/memory_game/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

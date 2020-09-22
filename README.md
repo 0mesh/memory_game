@@ -1,7 +1,7 @@
 # Memory Game
 A grid-based game made with Reactjs 
 
-Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. On the game board there are always 2 cards with same color. Start the game by flipping a card. Then try to find another card that has the same color as the first. If you can't find a pair, the flipped cards will be flipped back with the face down. Try to remember these images as it becomes easier to find pairs the longer you play. When you find a pair they are removed from the board and when you find all the pairs in this memory, you have completed the level.
+Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. On the game board there are always 2 cards with same color. 
 
 
 ## Rules of Memory Game

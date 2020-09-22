@@ -9,7 +9,7 @@ Memory Game, also known as the Concentration card game or Matching Game, is a si
 - Then try to find another card that has the same color as the first.
 - If you can't find a pair, the flipped cards will be flipped back with the face down. 
 - Try to remember the color on the card as it becomes easier to find pairs the longer you play.
-- When you find a pair they are kept visible from the board.
+- When you find a pair they are kept visible on the board.
 - When you find all the pairs in this memory you have completed the level.
 
 ## Levels of Memory Game
